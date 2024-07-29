@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AngularWebApiTree")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06a51f2918428ca1894d90b8ab70158e46a4ab33")]
 [assembly: System.Reflection.AssemblyProductAttribute("AngularWebApiTree")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AngularWebApiTree")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

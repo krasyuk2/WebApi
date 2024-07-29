@@ -1,20 +1,48 @@
+using AngularWebApiTree.Database;
+using AngularWebApiTree.Models;
+using AngularWebApiTree.Services;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//db
+builder.Services.AddDbContext<ApplicationDbContext>(option =>
+    option.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Service 
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IJwtService, JwtService>();
+
+//Cors
+builder.Services.AddCors(option =>
+{
+    option.AddPolicy("Angular",
+        builder =>
+        {
+            builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+
+        });
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    context.Database.EnsureCreated();
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("Angular");
 
 app.UseAuthorization();
 

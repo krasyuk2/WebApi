@@ -8,28 +8,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deda4a45-f377-4dc1-a3c9-9bee5cd8d4c8" name="Changes" comment="" />
+    <list default="true" id="deda4a45-f377-4dc1-a3c9-9bee5cd8d4c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AngularWebApiTree/Controllers/AuthController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularWebApiTree/Database/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularWebApiTree/Models/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularWebApiTree/Services/JwtService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AngularWebApiTree/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AngularWebApiTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AngularWebApiTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/AngularWebApiTree.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/AngularWebApiTree.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/AngularWebApiTree.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/AngularWebApiTree.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/AngularWebApiTree.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/AngularWebApiTree.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/AngularWebApiTree.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/AngularWebApiTree.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/Debug/net8.0/AngularWebApiTree.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/Debug/net8.0/AngularWebApiTree.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/Debug/net8.0/AngularWebApiTree.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/Debug/net8.0/AngularWebApiTree.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/Debug/net8.0/AngularWebApiTree.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/Debug/net8.0/AngularWebApiTree.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/Debug/net8.0/AngularWebApiTree.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/Debug/net8.0/AngularWebApiTree.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AngularWebApiTree/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AngularWebApiTree/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2jsADb9RnvmbFl4JhreCZMVcqWq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.AngularWebApiTree: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "maks",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -38,6 +66,9 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
     "rider.external.source.directories": [
       "C:\\Users\\Krasyuk\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
       "C:\\Users\\Krasyuk\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
@@ -45,7 +76,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.AngularWebApiTree: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.AngularWebApiTree: http">
     <configuration name="AngularWebApiTree: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AngularWebApiTree/AngularWebApiTree.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -98,11 +129,17 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
@@ -124,6 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722165294269</updated>
       <workItem from="1722165294271" duration="1051000" />
+      <workItem from="1722243815798" duration="6744000" />
     </task>
     <servers />
   </component>
@@ -131,6 +169,17 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
